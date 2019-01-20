@@ -15,12 +15,10 @@
 package main
 
 import (
-	"fmt"
 	"github.com/dbowers42/zombie_attack/cmd"
-	"github.com/dbowers42/zombie_attack/utils"
 )
 
 func main() {
-	fmt.Println(utils.GenerateName())
+
 	cmd.Execute()
 }
